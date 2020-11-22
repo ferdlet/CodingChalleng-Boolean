@@ -1,0 +1,73 @@
+body{
+  background-image: url( Immagini/background.jpg );
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: arial, sans-serif;
+}
+
+.contenitore{
+  width: 1200px;
+  height: 750px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3%;
+  margin-left: 220px;
+  margin-top: 40px;
+}
+
+.logo{
+  height: 100px;
+  margin-left: 520px;
+  margin-top: 110px;
+}
+
+h1{
+  color: #00ff00;
+  text-align: center;
+}
+
+nav{
+  background-color: #00ff00;
+  width: 900px;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+}
+
+main{
+  color: white;
+  padding-left: 155px;
+}
+
+.nome-monopattino{
+  font-size: 22px;
+}
+
+.indirizzo::before{
+  content: "\21A6";
+}
+
+.info{
+  font-size: 14px;
+}
+
+.stato-carica1{
+  background-color: orange;
+  width: 350px;
+  height: 25px;
+  border-radius: 4px;
+}
+
+.stato-carica2{
+  background-color: #00ff00;
+  width: 500px;
+  height: 25px;
+  border-radius: 4px;
+}
+
+.stato-carica3{
+  background-color: #9A031E;
+  width: 200px;
+  height: 25px;
+  border-radius: 4px;
+}
